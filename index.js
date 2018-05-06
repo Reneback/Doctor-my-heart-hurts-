@@ -58,3 +58,15 @@ text.innerHTML = "LA CHEVILLE:<br><br> La cheville, située entre la jambe et le
 cheville.addEventListener("mouseout", function(){
 text.innerHTML = "";
 });
+
+var text    = document.querySelector(".explain");
+var poignet  = document.querySelector("#circlePo");
+
+poignet.addEventListener("mouseover", function(){
+text.innerHTML = "LE POIGNET:<br><br> Le poignet est constitué de l’extrémité inférieure du radius et du cubitus (ou ulna), ainsi que du carpe, lui-même composé de deux rangées de quatre petits os. Liés par des ligaments, les os carpiens forment un « tunnel », nommé canal carpien, dans lequel passe le nerf médian et les tendons fléchisseurs des doigts. Le nerf médian est impliqué dans la sensibilité des doigts et dans les mouvements des doigts et de la main.<br><br><img src='img/poignet.png'>";
+		
+});
+
+poignet.addEventListener("mouseout", function(){
+text.innerHTML = "";
+});

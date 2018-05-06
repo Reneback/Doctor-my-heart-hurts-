@@ -19,11 +19,11 @@
 	flex-direction: row;
 	flex-wrap: nowrap;
 	align-items: center;
-	margin: 0 auto;
+	margin-top: 0 auto;
 	height: 100%;
 	width: 100%;
 	justify-content: center;
-	/*border: 2px solid;*/
+	border: white 2px solid;
 	} 
 
 	div{
@@ -102,6 +102,10 @@
 	height: 8%;
 	width: 30%;
 	}
-#illust{
-	position: absolute;
-}
+#circlePo {
+	top: 40%;
+	/*bottom: 2%;*/
+	right: -11%;
+	height: 8%;
+	width: 30%;
+	}
